@@ -1,0 +1,273 @@
+.container{
+    padding-top:150px;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*nft 눌렀을때 뜨는 화면 컨테이너*/
+.mainContainer{
+
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+
+
+}
+
+/*nft 눌렀을때 뜨는 화면 컨테이너에서 왼쪽*/
+.leftContainer{
+    position:relative;
+    padding-left:100px;
+    padding-right: 50px;
+    border-right: 1.5px solid rgba(0,0,0,0.25);
+    padding-bottom: 40px;
+}
+
+/*nft 상세화면 사진부분?*/
+.tokenContainer {
+    width: 30rem;
+    height: 35rem;
+    background: #fff;
+    /*border-radius: 15px;*/
+    display: inline-block;
+    margin: 1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);   
+}
+
+/*
+.tokenContainer:hover {
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+*/
+/*얘는없는듯?*/
+.tokenContainer2 {
+    width: 30rem;
+    height: 25rem;
+    background: #fff;
+    /*border-radius: 15px;*/
+    display: inline-block;
+    margin: 1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);   
+}
+
+/*상세화면 왼쪽 activity*/
+.tokenContainer3 {
+    width: 30rem;
+    height: 100%;
+    display: inline-block;
+    margin: 1rem;
+   
+      
+}
+
+/*오른쪽 상세 */
+.tokenContainer4 {
+    width: 40rem;
+    height: 20rem;
+    border-top:1px solid rgba(0, 0, 0, 0.37);   
+    display: inline-block;
+    margin: 1rem;
+    padding-top: 2rem;
+   
+      
+}
+
+/*오른쪽 상세화면 맨위 카테고리 부분*/
+.label{
+    width: 40rem;
+    margin: 1rem ;
+    font-size:18px;
+}
+
+
+.desc{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/**/
+.desc2{
+    border-top:1px solid rgba(0, 0, 0, 0.37);
+    width: 100%;
+    padding-top: 16px;
+    height: 25%;
+    font-weight:600;
+    font-size:30px;
+    display: flex;
+    align-items: center;
+
+}
+
+/*사진 밑에 Description 밑에 설명부분*/
+.desc3{
+    width: 100%;
+    height: 75%;
+    background-color: rgb(248, 248, 250);
+    align-items: center;
+
+    
+}
+
+/*설명부분에서 발급기관이랑 수령인 */
+.desc4 span{
+    font-size:23px;
+
+
+}
+
+/*설명부분에서 발급일자 */
+.desc4 p{
+    font-size:23px;
+
+
+}
+/*설명부분에서 주소*/
+.desc4 .label2{
+    font-size:23px;
+    /*color: #525ffb;*/
+    /*border-bottom: 0.8px solid rgba(0, 0, 0, 0.25);*/
+
+}
+
+/*설명*/
+.des{
+    font-size:23px;
+    color: #71747e;
+    margin-top:30px ;
+
+}
+
+/*activity랑 send*/
+.desc4{
+
+    font-weight:0;
+    font-size:17px;
+    align-items: center;
+    color: rgb(76, 77, 87);
+    margin-bottom: 2rem;
+}
+
+.desc4 h3{
+
+    font-weight:500;
+    font-size:25px;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.user {
+    align-items: center;
+    margin-top:5px;
+    margin-left:10px;
+  
+}
+
+.tokenContainer img{
+    border-top:1px solid rgba(66, 64, 64, 0.288);
+}
+/*오른쪽 상세화면 */
+.tokenTransferContainer{
+    padding: 40px;
+    width: 100%;
+    border: 0.8px solid rgba(0, 0, 0, 0.25);
+    background-color: rgb(248, 248, 250);
+    
+    
+}
+
+.tokenTransferContainer2{
+   margin-left: 70px;
+   width: 60%;
+   
+
+    
+}
+
+
+
+
+.name {
+    font-size: 30px;
+    font-weight: 800;
+    margin:10px 0;
+    
+}
+
+.rightlabel1
+{
+    font-size: 20px;
+    color:rgb(126, 132, 138);
+}
+.rightlabel2 
+{
+    font-size:17px;
+    color: #525ffb;
+}
+
+.button {
+  margin-left:20px;
+
+}
+
+.button input {
+    font-family: inherit;
+    padding: 5px 20px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #525FFB;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    line-height: 27px;
+    text-align: left;
+    color: #525ffb;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-right: 17px;
+    margin-top : 20px;
+    margin-left: 20px;
+    width: 410px;
+    
+}
+
+.button span {
+    font-family: inherit;
+    padding: 10px 20px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #525FFB;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    line-height: 27px;
+    text-align: left;
+    color: #525ffb;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-right: 17px;
+    margin-top : 20px;
+ 
+    
+ 
+}
+
+.tokenTransfer {
+    margin:10px 0
+}
+
+

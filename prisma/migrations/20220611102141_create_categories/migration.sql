@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE `Random` ADD COLUMN `tokenId` INTEGER NOT NULL DEFAULT 0;
